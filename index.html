@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Home</title>
+</head>
+<body>
+	<div class = "container">
+		<!-- navbar -->
+		<div class = "navbar-box">
+			<nav class="navbar">
+				<!-- nav-items -->
+				<div class="nav-items">
+					<ul>
+						<li><a href="index.html" class="nav-bar-link" id="nav-bar-home">Home</a></li>
+						<li><a href="about.html" class="nav-bar-link" id="nav-bar-about">About</a></li>
+					</ul>
+				</div> 
+				<!-- nav-items -->
+
+				<!-- linkedin -->
+				<div class="linkedin">
+					<a href="https://www.linkedin.com/in/yada-jongsukhee/" target="_blank" class="nav-bar-link">
+						<img src="assets/images/icons/linkedin-4.png" alt="LinkedIn" id="linkedIn" 
+						onmouseover="changeLinkedInIconHover()" onmouseleave="changeLinkedInIconBack()">
+					</a>
+				</div>
+				<!-- linkedin -->
+			</nav>
+		</div>
+		<!-- navbar -->
+		
+		<!-- head -->
+		<div class = "head-intro">
+			<div class ="head-topic">
+				<img loading="lazy" class="head-img" src="assets/images/home-intro.png" alt="Memoji">
+				<h1>Hi 👋🏻 I'm Dow</h1>
+				<p id ="welcome-text">Welcome to my portfolio!</p>
+			</div>
+		</div>
+		<!-- head -->
+
+		<!-- projects -->
+		<div class="project-container">
+			<img loading="lazy" src="assets/images/project1-card.jpg" alt="Pilomn Mobile Application" class="project-img-left" id="project-card" onclick="redirectToProject1()">
+			<img loading="lazy" src="assets/images/project4-card.png" alt="Toedur Website" class="project-img-right" id="project-card" onclick="redirectToProject4()">
+		</div>
+		<div class="project-container">
+			<img loading="lazy" src="assets/images/project2-card.jpg" alt="Personal Website" class="project-img-left" id="project-card" onclick="redirectToProject2()">
+			<img loading="lazy" src="assets/images/project3-card.jpg" alt="WhanWhan E-commerce Website" class="project-img-right" id="project-card" onclick="redirectToProject3()">
+		</div>
+		<!-- projects -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<p>Copyright © , Yada Jongsukhee.</p>
+		</footer>
+		<!-- footer -->
+		<script src="script.js"></script>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Toedur Website</title>
+</head>
+<body>
+	<div class = "container">
+		<!-- navbar -->
+		<div class = "navbar-box">
+			<nav class="navbar">
+				<!-- nav-items -->
+				<div class="nav-items">
+					<ul>
+						<li><a href="index.html" class="nav-bar-link" id="nav-bar-home">Home</a></li>
+						<li><a href="about.html" class="nav-bar-link" id="nav-bar-about">About</a></li>
+					</ul>
+				</div> 
+				<!-- nav-items -->
+
+				<!-- linkedin -->
+				<div class="linkedin">
+					<a href="https://www.linkedin.com/in/yada-jongsukhee/" target="_blank" class="nav-bar-link">
+						<img src="assets/images/icons/linkedin-4.png" alt="LinkedIn" id="linkedIn" 
+						onmouseover="changeLinkedInIconHover()" onmouseleave="changeLinkedInIconBack()">
+					</a>
+				</div>
+				<!-- linkedin -->
+			</nav>
+		</div>
+		<!-- navbar -->
+		<div class="project-head">
+			<h1>Toedur Website</h1>
+		</div>
+		<div class="project-content">	
+			<div class="project-info">
+				<h2>Project Info</h2>
+				<p><strong>Team</strong></p>
+				<p>Toedur UX/UI Design Team</p>
+				<p><strong>Roles</strong></p>
+				<p>UX/UI Designer Trainee</p>
+				<p><strong>Design Tools</strong></p>
+				<p>Miro, Figma</p>
+				
+			</div>	
+			<div class="project-intro">
+				<p>Toedur is a platform designed to create a supportive community by connecting international students studying 
+					abroad with experienced mentors, called Edurs. Additionally, it provides tools and resources for mentorship 
+					and financial guidance. The purpose of this website is to make Toedur's objectives accessible and connect 
+					people through the platform. Students seeking advice or mentors can visit the website to find guidance, 
+					while mentors (Edurs) can also register to offer their serv ices through the site.
+				</p>
+				<img loading="lazy" src="assets/images/project4-hero.png" alt="Toedur Website" id="project1-img">
+
+			</div>
+		</div>
+		<div class ="design-container">
+			<h2>UI Design</h2>
+			<div class="design-group-vertical-center">
+				<img loading="lazy" src="assets/images/project4/Index.png" alt="Home Page" class="project3-design-1">
+				<img loading="lazy" src="assets/images/project4/MyEdur.png" alt="Edurs Page - My Edurs" class="project3-design-2">
+				<img loading="lazy" src="assets/images/project4/SearchEdur.png" alt="Edurs Page - Search Edurs" class="project3-design-3">
+				<img loading="lazy" src="assets/images/project4/SearchEdur1.png" alt="Edurs Page - Search Edurs" class="project3-design-4">
+				<img loading="lazy" src="assets/images/project4/SearchEdur2.png" alt="Edurs Page - Search Edurs" class="project3-design-4">
+				<img loading="lazy" src="assets/images/project4/SearchEdur3.png" alt="Edurs Page - Search Edurs" class="project3-design-4">
+				<img loading="lazy" src="assets/images/project4/SavedEdur.png" alt="Edurs Page - Saved Edurs" class="project3-design-4">
+				<img loading="lazy" src="assets/images/project4/Banner.png" alt="Banner" class="project3-design-4">
+				<img loading="lazy" src="assets/images/project4/Banner2.png" alt="Banner" class="project3-design-4">
+			</div>
+		</div>
+		<!-- nav-footer -->
+		<div class="footer">
+			<div class="previous-button-footer" onmouseover="changePreviousIcon()" 
+			onmouseleave="changePreviousIconBack()" onclick="redirectToProject1()">
+				<img loading="lazy" src="assets/images/icons/arrow-left.png" alt="Previous" id="previousButton">
+				<p>Previous</p>
+			</div>
+			<div class="home-button-footer">
+				<img loading="lazy" src="assets/images/icons/home.png" alt="Home" id="homeButton" 
+				onmouseover="changeHomeIcon()" onmouseleave="changeHomeIconBack()"
+				onclick="redirectToHome()">
+			</div>
+			<div class="next-button-footer" onclick="redirectToProject2()" id="nextButtonFooter"
+			onmouseover="changeNextIcon()" onmouseleave="changeNextIconBack()">
+				<p>Next</p>
+				<img loading="lazy" src="assets/images/icons/arrow-right.png" alt="Next" id="nextButton">
+			</div>
+		</div>
+		<!-- nav-footer -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<p>Copyright © , Yada Jongsukhee.</p>
+		</footer>
+		<!-- footer -->
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
